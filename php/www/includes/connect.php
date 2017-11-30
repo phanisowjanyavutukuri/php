@@ -1,7 +1,7 @@
 <?php
     function CreateQuery($query)
     {
-        $host = "localhost";
+        $host = "35.193.11.220";
         $username = "root2";
         $password = "qwerty";
         $dbname = "bookmarkproject";
