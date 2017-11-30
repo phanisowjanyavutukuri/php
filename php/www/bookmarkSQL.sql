@@ -8,10 +8,10 @@ USE `bookmarkproject`;
 ##
 ##Create User and assign privileges
 ##
-DROP USER 'root2'@'localhost';
+DROP USER 'root2'@'35.193.11.220';
 FLUSH PRIVILEGES;
-CREATE USER 'root2'@'localhost' IDENTIFIED BY 'qwerty';
-GRANT ALL ON `bookmarkproject`.* TO 'root2'@'localhost';
+CREATE USER 'root2'@'35.193.11.220' IDENTIFIED BY 'qwerty';
+GRANT ALL ON `bookmarkproject`.* TO 'root2'@'35.193.11.220';
 
 ##
 ## Table structure for table `bookmarks`
